@@ -46,11 +46,11 @@ with st.sidebar:
     st.write(company_details)
 
 # Define the chart
-qf = cf.QuantFig(stock_data, kind='candlestick', legend='top', theme='solar', title=stock_name.info['shortName'])
+qf = cf.QuantFig(stock_data, kind='candlestick', legend='top', theme='white', title=stock_name.info['shortName'])
 
 qf.add_volume()
 
-rangeselector=dict(steps=['ALL','3Y','2Y','1Y','YTD','6M','1M','1MTD'], bgcolor=('#000'), 
+rangeselector=dict(steps=['ALL','3Y','2Y','1Y','YTD','6M','1M','1MTD'], bgcolor=('#FFF'), 
                    fontsize=12, fontfamily='monospace')
 
 # Adding SMA to the figure
