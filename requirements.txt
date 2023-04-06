@@ -1,0 +1,6 @@
+cufflinks
+pandas
+plotly==5.14.1
+streamlit==1.20.0
+yahoo_fin==0.8.9.1
+yfinance==0.2.14
